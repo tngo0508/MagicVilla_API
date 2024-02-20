@@ -8,5 +8,7 @@ namespace MagicVilla_VillaAPI.Models.Dto
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int VillaNo { get; set; }
         public string SpecialDetails { get; set; }
+        [Required]
+        public int VillaId { get; set; }
     }
 }
